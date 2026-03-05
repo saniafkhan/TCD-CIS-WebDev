@@ -1,10 +1,13 @@
 <!doctype html>
-<html>
-  
-<h1>Declaration of Independence: A Transcription</h1>
+<html lang="en">
+  <head>
+<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+<title> Declaration of Independence: A Transcription </title>
 
-<h2> In Congress, July 4, 1776 </h2> 
-
+<h1> In Congress, July 4, 1776 </h1> 
+</head>
+<body>
 <p>
 <strong>The unanimous Declaration of the thirteen united States of America</strong>, When in the Course of human events, it becomes necessary for one people to dissolve the political bands which have connected them with another, and to assume among the powers of the earth, the separate and equal station to which the Laws of Nature and of Nature's God entitle them, a decent respect to the opinions of mankind requires that they should declare the causes which impel them to the separation.
 </p>
@@ -75,4 +78,5 @@ Nor have We been wanting in attentions to our Brittish brethren. We have warned 
 <p>
 We, therefore, the Representatives of the united States of America, in General Congress, Assembled, appealing to the Supreme Judge of the world for the rectitude of our intentions, do, in the Name, and by Authority of the good People of these Colonies, solemnly publish and declare, That these United Colonies are, and of Right ought to be Free and Independent States; that they are Absolved from all Allegiance to the British Crown, and that all political connection between them and the State of Great Britain, is and ought to be totally dissolved; and that as Free and Independent States, they have full Power to levy War, conclude Peace, contract Alliances, establish Commerce, and to do all other Acts and Things which Independent States may of right do. And for the support of this Declaration, with a firm reliance on the protection of divine Providence, we mutually pledge to each other our Lives, our Fortunes and our sacred Honor.
 </p> 
+</body>
 </html>

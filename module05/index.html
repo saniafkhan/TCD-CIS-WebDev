@@ -1,1 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+   <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Resident Evil - My Favorite Game</title>
+    <style>
+      
+      body{
+        background-color: black;
+        color: red;
+        font-family: 'Courier New', Courier, monospace;
+      }
+/*ID Selector*/
+      page{
+      max-width: 1000px;
+      margin: 1rem auto;
+      border: 1px, solid, #330000;
+      }
+/*Combinator Requirement*/
+      h1{
+        text-align: center;
+        text-transform: uppercase;
+      }
+/*Class Selector*/
+      content-section{
+        padding: 1.5rem;
+        border-bottom: 1px, solid, #4a0000;
+      }
+/*Descendant Selector*/
+      nav a{
+        color: #ff0000;
+        text-decoration: none;
+        margin-right: 20px;
+        border: 1px, solid, red;
+        padding: 5px;
+      }
+/*pseudo-class Selector*/
+      nav a:hover{
+      background-color: red;
+      color: black;
+      }
+/*Descendant Selector*/
+      main section p{
+        line-height: 1.5;
+      }
+/*Attribute Selector*/
+      a[href^="http"]{
+        color: #8b0000;
+        font-weight: bold;
+        text-decoration: underline;
+      }
 
+      a[href^="http"]:hover{
+      color: white;
+      }
+
+      #game-facts li:nth-of-type(even){
+       background-color: #1a0000;
+      }
+      
+      #game-facts li:hover{
+      background-color: #ff0000;
+      color: black;
+      cursor: crosshair;
+      }
+/*Descendant Selector*/
+      footer p{
+      font-size: 0.75rem;
+      text-align: center;
+      }
+/*ensures red text color is preserved even if the 
+   footer has inherited styles or browser defaults that attempt to change it.*/
+      footer p{
+      color: red !important;
+      }
+</head>
+<body>
+    <div id="page">
+        <header>
+            <h1>Resident Evil</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="index.html">About</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="content-section">
+                <h2>About the Game</h2>
+<p> Resident Evil, the Japanese franchise, created by Capcom in 1996, is the undisputed pioneer of the "survival horror" genre. The series generally follows members of elite task forces and everyday survivors as they battle bio-organic weapons, most notably zombies, unleashed by the unethical Umbrella Corporation. While it began in a claustrophobic mansion in Raccoon City, the lore has expanded into a global saga of conspiracy, viral evolution, and high-stakes action.
+</p>
+            </section>
+
+            <section class="content-section">
+                <h2>Why I like it</h2>
+                <p>I'm drawn to Resident Evil because of its masterclass in sustained tension; the game never lets me get too comfortable. I love how the thick, eerie atmosphere and genuine horror keep me on edge, while the intricate puzzles force me to use my brain even when I'm under pressure. Beyond the scares, I find a deep satisfaction in piecing together the complex backstory through files and environmental storytelling, uncovering the dark secrets behind the biological outbreaks. Ultimately, it’s that perfect loop of survival and discovery, where I’m constantly thinking and moving, that makes the experience so addictive for me.</p>
+                
+                <ul id="game-facts">
+                    <li> It was originally intended to be a first-person remake of 'Sweet Home'.</li>
+                    <li>The game is known as 'Biohazard' in Japan.</li>
+                    <li>famously memed for the 'Worst Game Dialogue' ever recorded.</li>
+                    <li>The Spencer Mansion was inspired by the Overlook Hotel from 'The Shining'.</li>
+                    <li>The term 'Survival Horror' was coined specifically for this game's marketing.</li>
+                    <li>The 'Zombie Turning' cutscene was the first FMV many players ever saw.</li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <a href="https://en.wikipedia.org/wiki/Resident_Evil">Resident Evil Wiki</a>
+            <p &copy;© 2025 — TCD CIS / Game Design &nbsp;|&nbsp; Sania Khan &nbsp;|&nbsp; Module 05 Assignment</p>
+        </footer>
+    </div>
+</body>
+</html>
